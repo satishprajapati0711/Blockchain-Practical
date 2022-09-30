@@ -21,7 +21,7 @@ contract SimpleStorage {
     //Mapping
     mapping(string => uint256) public nametoNumber;
 
-    //People public person = People({number:2,name:"Satish"});
+    People public person = People({number:2,name:"Satish"});
    // function takes underscore 
     function store(uint256 _number) public {
         number = _number;
